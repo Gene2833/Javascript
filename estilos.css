@@ -1,0 +1,113 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+.logo{
+    width: 250px;
+    height: 250px;
+}
+
+.item {
+    text-align: center;
+    padding: 10px;
+}
+
+.item h1 {
+    font-size: 30px;
+    color: black;
+}
+
+.item img {
+    width: 700px;
+    height: 300px;
+    padding: 10px;
+}
+
+.items {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-items: center;
+}
+
+.items .item1 {
+    padding: 10px;
+}
+
+.items .item1 img {
+    width: 550px;
+    height: 280px;
+}
+
+.encabezado {
+    text-align: center;
+    padding: 25px;
+}
+
+.encabezado h2 {
+    font-size: 30px;
+    color: #cf9297;
+}
+
+.main {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.main .cajas {
+    padding: 20px;
+    margin: 20px;
+}
+
+.main .cajas img {
+    width: 250px;
+    height: 190px;
+    border-radius: 10px;
+    transition: all 0.3s ease-in-out;
+}
+
+.main img:hover {
+    transform: scale(1.1);
+}
+
+.main .cajas p {
+    text-align: center;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+footer {
+    background: linear-gradient(to left, #ee8f97, #eec3c3);
+}
+
+footer .redes ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    list-style: none;
+}
+
+footer .redes li {
+    margin: 5px;
+}
+
+footer .redes a {
+    padding: 1px;
+}
+
+footer .redes img {
+    height: 60px;
+    width: 55px;
+    margin: 10px;
+}
+
+footer .creado {
+    text-align: center;
+}
+
+footer .creado p {
+    color: #000000;
+    font-size: 20px;
+}
